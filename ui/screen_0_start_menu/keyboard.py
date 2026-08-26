@@ -6,7 +6,7 @@ def get_screen_0_start_menu_keyboard() -> telebot.types.InlineKeyboardMarkup:
 
     keyboard.add(
         telebot.types.InlineKeyboardButton(
-            "Просмотреть прошлые путешествия", callback_data="screen_1_show_travel"
+            "Просмотреть прошлые путешествия", callback_data="old_travel"
         )
     )
     keyboard.add(
