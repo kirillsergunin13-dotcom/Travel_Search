@@ -19,4 +19,5 @@ def get_screen_4_hotel_selection_keyboard() -> telebot.types.InlineKeyboardMarku
             "Дорогое отель 'дорогоогого' с ценой 99999999999999999$", callback_data="three_hotel"
         )
     )
+    print(111)
     return keyboard

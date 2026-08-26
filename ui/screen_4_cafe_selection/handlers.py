@@ -14,11 +14,11 @@ def show_screen_5_hotel_selection(chat_id:int,state:StateContext):
     )
 
 @bot.callback_query_handler(state=TravelStates.screen_4_cafe_selection)
-def callback_screen_1_main_menu(call: types.CallbackQuery, state: StateContext):
+def callback_screen_4_cafe_selection(call: types.CallbackQuery, state: StateContext):
 
     bot.answer_callback_query(call.id)
 
     with state.data() as data:
-        data["cafe"]=call
+        data["cafe"]=call.data
     
     show_screen_5_hotel_selection(call.message.chat.id,state)
