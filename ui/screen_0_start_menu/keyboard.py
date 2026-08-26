@@ -1,6 +1,5 @@
 import telebot
 
-
 def get_screen_0_start_menu_keyboard() -> telebot.types.InlineKeyboardMarkup:
 
     keyboard = telebot.types.InlineKeyboardMarkup()
@@ -15,5 +14,4 @@ def get_screen_0_start_menu_keyboard() -> telebot.types.InlineKeyboardMarkup:
             "Создать новое путешествие", callback_data="date_input"
         )
     )
-
     return keyboard
