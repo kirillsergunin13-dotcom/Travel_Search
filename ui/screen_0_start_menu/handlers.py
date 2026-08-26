@@ -21,6 +21,7 @@ def show_screen_1_main_menu(chat_id: int, state: StateContext):
 
 @bot.message_handler(commands=["start"])
 def command_screen_0_start_handler(message: types.Message, state: StateContext):
+    print("AAAAAAAAAAaaaaaaa")
 
     state.delete()
 
