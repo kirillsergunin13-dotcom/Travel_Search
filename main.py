@@ -5,6 +5,7 @@ from bot_instence import bot
 
 import ui.screen_0_start_menu.handlers
 import ui.screen_1_main_menu.handlers
+import ui.screen_2_input_date.handlers
 
 # import ui.screen_1_start.handlers
 # import ui.screen_2_main_menu.handlers
