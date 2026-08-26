@@ -9,6 +9,7 @@ import ui.screen_2_input_date.handlers
 import ui.screen_3_input_city.handlers
 import ui.screen_4_cafe_selection.handlers
 import ui.screen_5_hotel_selection.handlers
+import ui.screen_6_travel.handlers
 
 bot.add_custom_filter(custom_filters.StateFilter(bot))
 bot.setup_middleware(StateMiddleware(bot))
