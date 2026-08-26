@@ -1,7 +1,7 @@
 import telebot
 
 
-def get_screen_1_main_menu_keyboard() -> telebot.types.InlineKeyboardMarkup:
+def get_screen_0_start_menu_keyboard() -> telebot.types.InlineKeyboardMarkup:
 
     keyboard = telebot.types.InlineKeyboardMarkup()
 
@@ -12,7 +12,7 @@ def get_screen_1_main_menu_keyboard() -> telebot.types.InlineKeyboardMarkup:
     )
     keyboard.add(
         telebot.types.InlineKeyboardButton(
-            "Создать новое путешествие", callback_data="screen_1_input_city"
+            "Создать новое путешествие", callback_data="date_input"
         )
     )
 

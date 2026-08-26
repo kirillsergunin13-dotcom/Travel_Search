@@ -3,6 +3,7 @@ from telebot.states.sync.middleware import StateMiddleware
 
 from bot_instence import bot
 
+import ui.screen_0_start_menu.handlers
 import ui.screen_1_main_menu.handlers
 
 # import ui.screen_1_start.handlers

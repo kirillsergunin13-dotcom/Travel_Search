@@ -4,9 +4,9 @@ class TravelStates(StatesGroup):
     
     screen_1_main_menu = State()
     
-    screen_2_city_input = State()
+    screen_2_date_input = State()
     
-    screen_3_date_input = State()
+    screen_3_city_input = State()
     
     screen_4_cafe_selection = State()
     

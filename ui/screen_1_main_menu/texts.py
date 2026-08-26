@@ -1,2 +1,3 @@
-def get_main_text():
-    return "Приветствуем в TravelSeacher !"
+def get_text_screen_2_input_date():
+    return "Вы создаёте новое путешествие:\n"\
+           "Введите пожалуйста дату вашего путешествия в виде день.месяц.год"
