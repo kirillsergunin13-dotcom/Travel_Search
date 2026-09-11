@@ -1,7 +1,18 @@
 import telebot
 
-def get_screen_0_start_menu_keyboard() -> telebot.types.InlineKeyboardMarkup:
 
+def get_start_keyboard() -> telebot.types.InlineKeyboardMarkup:
+    keyboard = telebot.types.InlineKeyboardMarkup()
+
+    keyboard.add(
+        telebot.types.InlineKeyboardButton(
+            "Start", callback_data="start"
+        )
+    )
+    return keyboard
+
+
+def get_main_menu_keyboard() -> telebot.types.InlineKeyboardMarkup:
     keyboard = telebot.types.InlineKeyboardMarkup()
 
     keyboard.add(

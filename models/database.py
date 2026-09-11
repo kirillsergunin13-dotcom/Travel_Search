@@ -19,8 +19,6 @@ class Base(DeclarativeBase):
 
 # pool_pre_ping проверяет соединение перед выдачей из пула и помогает пережить
 # разрыв простаивавшего подключения к PostgreSQL.
-# pool_pre_ping проверяет соединение перед выдачей из пула и помогает пережить
-# разрыв простаивавшего подключения к PostgreSQL.
 engine = create_engine(DATABASE_URL, echo=False, pool_pre_ping=True)
 
 # Фабрика создаёт отдельную сессию для каждой операции репозитория.
