@@ -7,6 +7,10 @@ def get_text_screen_2_input_date():
         "Введите пожалуйста дату вашего путешествия в виде день.месяц.год"
     )
 
+def get_error_text_screen_8():
+    return ("Ошибка. Не удалось загрузить путешествие, \n"
+    "Возможно нет настолько старого или настолько нового,\n"
+    "Для решения проблемы и возврашения на начальное окно нажмите /start")
 
 def get_text_screen_8_old_travel(state: StateContext):
     with state.data() as data:

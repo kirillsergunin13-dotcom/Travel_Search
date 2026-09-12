@@ -4,7 +4,7 @@ from telebot.states.sync.middleware import StateMiddleware
 from bot_instence import bot
 from models.database import Base, engine
 
-import models.treavels  # noqa: F401  # регистрирует таблицу в metadata
+import models.treavels  
 import ui.screen_0_start_menu.handlers
 import ui.screen_1_main_menu.handlers
 import ui.screen_2_input_date.handlers
